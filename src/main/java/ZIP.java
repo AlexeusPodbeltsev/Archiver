@@ -11,7 +11,6 @@ public class ZIP {
 
 
     public static void main(String[] args) {
-        System.out.println("Hello");
         try (BufferedReader bf = new BufferedReader(new InputStreamReader(System.in))){
             String zip = bf.readLine();
             if (!Objects.requireNonNull(zip).isEmpty()&&zip.matches("/.+\\.zip$"))
